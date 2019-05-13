@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* Body */
+
+body {
+	font-family: source-sans-pro;
+	background-color: rgba(210, 215, 218, 0.767);
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+
+
+/* Container */
+
+
+#onecontent {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: auto;
+	height: 1000px;
+}
+
+#timecontent {
+	width: 60%;
+	margin-left: 40%;
+	margin-right: auto;
+	height: 1000px;
+}
+
+#headcontent {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+}
+
+
+#onecontent .oneside{
+	width: 200px;
+	background-color: rgb(240, 254, 255);
+	margin-top: 1%;
+	height: 30%;
+	border-radius: 7px;
+	border: 0.5px solid rgba(210, 215, 218, 0.884);
+}
+
+#timecontent .timeline {
+	width: 500px;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: rgb(240, 254, 255);
+	margin-top: 1%;
+	height: 90%;
+	border-radius: 7px;
+	border: 0.5px solid rgba(210, 215, 218, 0.884);
+}
+
+.twosidebar {
+	width: 15%;
+	margin-left: auto;
+	margin-right: 15%;
+	background-color: rgb(240, 254, 255);
+	margin-top: -54%;
+	height: 40%;
+	border-radius: 7px;
+	border: 0.5px solid rgba(210, 215, 218, 0.884);
+}
+
+
+.header {
+	width: 100%;
+	height: 40px;
+	background-color: #01C39C;
+	border-bottom: 2px solid rgb(102, 136, 158);
+	/* hover = 구조체 밑에 공간을 추가하는 함*/
+}
+#headcontent .bar {
+	color: rgba(255, 255, 255, 0.87);
+	font-weight: bold;
+	text-align: undefined;
+	float: left;
+	margin-top: 4px;
+	letter-spacing: 4px;
+}
+#headcontent nav {
+	float: right;
+	text-align: right;
+	margin-right: -25px;
+	margin-top: -5px;
+}
+header #headcontent nav ul {
+	list-style: none;
+	float: right;
+}
+#headcontent nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+#headcontent ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#headcontent ul li:hover a { /* hover = 특정 구조에 포인터를 올릴경우 바뀌게 하는 함수*/
+	color: #6F6F6F;
+}
+
+/* Hero Section */
+
